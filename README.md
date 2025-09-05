@@ -107,7 +107,7 @@ Exemplo prático de previsão
 <br><br>
 
 ## Notebook Jupyter
-🔗 Link para o notebook
+🔗 Clique [aqui](https://colab.research.google.com/github/Nico-Araujo/FarmTech/blob/main/notebooks/NicolasAntonioSilvaAraujo_rm566307_pbl_fase5.ipynb) para ser redirecionado para o notebook no Google Colab
 <br><br>
 
 ## 📋 Conclusões
