@@ -8,10 +8,10 @@
 - <a href="https://www.linkedin.com/in/juliano-romeiro-rodrigues/">Juliano Romeiro Rodrigues</a>
 - <a href="https://www.linkedin.com/in/nicolas--araujo/">Nicolas Antonio Silva Araujo</a> 
 - <a href="https://www.linkedin.com/in/vitoria-bagatin-31ba88266/">Vitória Pereira Bagatin</a> 
-
+<br><br>
 ## 📋 Sobre o Projeto
 Projeto de Machine Learning para previsão de rendimento de safras agrícolas baseado em condições ambientais e de solo. Desenvolvido como parte da Fase 5 do programa de Graduação em Inteligência Artificial, com foco em Machine Learning e Computação em Nuvem.  
-
+<br><br>
 ## 🎯 Objetivos
 - ✅ **Análise Exploratória**: Compreensão dos padrões dos dados agrícolas
 - ✅ **Clusterização**: Identificação de tendências de produtividade
