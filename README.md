@@ -44,33 +44,27 @@ matplotlib==3.7.1
 seaborn==0.12.2
 jupyter==1.0.0
 
+## Estrutura de pastas
+<b>data<b>
+Essa pasta armazena todos os datasets utilizados no projeto.
+- <b>crop_yield_cleaned.csv<b>: Versão do dataset original que foi limpa e processada.
+- <b>crop_yield_clustered.csv<b>: Contém os dados com os clusters de produção já identificados.
+- <b>crop_yield_with_outliers.csv<b>: O dataset com os outliers marcados para análise.
 
-## Estrutura do Projeto
-farmtech-project/
-├── data/
-│   ├── raw/
-│   │   ├── crop_yield.csv              # Dataset original (cru)
-│   │   └── other_datasets/             # Datasets auxiliares (ex: california housing, mnist)
-│   ├── processed/
-│   │   ├── crop_yield_cleaned.csv      # Dataset limpo e processado
-│   │   ├── crop_yield_clustered.csv    # Dataset com clusters identificados
-│   │   └── crop_yield_with_outliers.csv# Dataset com outliers marcados
-│
-├── models/
-│   ├── saved/
-│   │   ├── linear_regression.pkl       # Modelo de Regressão Linear
-│   │   ├── random_forest.pkl           # Modelo Random Forest
-│   │   ├── xgboost.pkl                 # Modelo XGBoost com tuning otimizado
-│   │   └── ...                         # Outros modelos e resultados
-│   ├── artifacts/
-│   │   ├── scaler.pkl                  # Scaler para normalização dos dados
-│   │   └── label_encoder.pkl           # LabelEncoder para variáveis categóricas
-│   └── model_results.json              # Resultados e métricas de todos os modelos
-│
-├── notebooks/
-│   ├── pbl_fase4.ipynb                 # Notebook principal com a análise completa do projeto
-│
-└── README.md                           # Documentação e guia do projeto
+<b>models<b>
+Aqui estão salvos todos os modelos de machine learning treinados, assim como os scalers e encoders usados no pré-processamento.
+- <b>linear_regression.pkl<b>: Modelo de Regressão Linear treinado.
+- <b>random_forest.pkl<b>: Modelo Random Forest treinado.
+- <b>mlp.pkl<b>: Modelo MLP Regressor treinado.
+- <b>svr.pkl<b>: Modelo Support Vector Regression treinado.
+- <b>xgboost.pkl<b>: Modelo XGBoost com otimização de hiperparâmetros.
+- <b>scaler.pkl<b>: Objeto scaler usado para a normalização dos dados.
+- <b>label_encoder.pkl<b>: Objeto label encoder utilizado para codificar variáveis categóricas.
+- <b>model_results.json<b>: Arquivo com os resultados e métricas de desempenho de cada modelo.
+
+<b>notebooks<b>
+Contém os notebooks Jupyter para a análise e desenvolvimento do projeto.
+- <b>pbl_fase4.ipynb<b>: Notebook principal com a análise exploratória de dados (EDA), pré-processamento, treinamento dos modelos e avaliação
 
 ## 🔍 Metodologia
 1. Análise Exploratória
