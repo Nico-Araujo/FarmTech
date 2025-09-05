@@ -89,11 +89,8 @@ Contém o notebook Jupyter para a análise e desenvolvimento do projeto.
 * MLP Regressor - Rede neural artificial  
 <br><br>
 ## Insights Principais
-- 🌡️ Temperatura: Fator mais importante
-- 💧 Umidade Relativa: Segundo fator mais relevante
-- 🌧️ Precipitação: Necessário balanceamento
-- 🌱 Tipo de Cultura: Influência significativa
-- 💨 Umidade Específica: Menor impacto  
+- 🌱 Tipo de Cultura: fator mais significativo para prever o rendimento (variável com uma importância de 0.987 no modelo Random Forest)
+- 🌧️ Precipitação, 💧 Umidade Específica, 🌡️ Temperatura, 💨 Umidade Relativa: As variáveis ambientais tiveram uma importância muito menor no modelo Random Forest, todas abaixo de 0.005. A análise de correlação também mostrou correlações muito baixas entre essas variáveis e o rendimento (todas próximas de zero). Entre elas, a Precipitação e a Umidade Específica tiveram importâncias ligeiramente maiores no Random Forest.
 <br><br>
 
 ## Notebook Jupyter
