@@ -109,14 +109,16 @@ Exemplo prático de previsão
 <br><br>
 
 ## 📋 Conclusões
-Descobertas Chave
-- Condições ideais: Temperatura 20-25°C, Umidade 65-75%
-- Culturas de alto rendimento: Milho e Soja nas condições ideais
-- Fatores limitantes: Temperaturas extremas e umidade desbalanceada
-- Clusterização eficaz: 3 clusters identificados com diferentes níveis de produtividade
+### Descobertas Chave:
+- Fator Determinante Principal: O tipo de cultura ('Crop') é o fator mais significativo na determinação do rendimento agrícola neste dataset, demonstrando uma importância muito superior às variáveis ambientais no modelo preditivo.
+- Culturas com Maiores Rendimentos: Entre as culturas analisadas, 'Oil palm fruit' e 'Rice, paddy' apresentaram, em média, rendimentos consideravelmente mais altos em comparação com 'Cocoa, beans' e 'Rubber, natural'.
+- Padrões de Produtividade por Cluster: A clusterização baseada em condições ambientais identificou 7 grupos distintos com diferentes níveis de rendimento médio. O Cluster 6 foi associado à maior produtividade média, caracterizado por condições ambientais específicas (Precipitação média de ~2480 mm/dia, Temperatura média de ~26.43°C, Umidade Relativa média de ~84.17% e Umidade Específica média de ~18.35 g/kg).
+- Impacto das Variáveis Ambientais: Embora menos influentes que o tipo de cultura, as variáveis ambientais (Precipitação, Umidade Específica, Umidade Relativa e Temperatura) influenciam o rendimento e contribuem para a formação dos clusters de produtividade. A precipitação e a umidade específica apresentaram uma levemente maior importância entre as variáveis ambientais no modelo preditivo.
+- Identificação de Outliers: Foram identificados pontos de dados que se desviam dos padrões gerais, tanto pela análise de IQR/Isolation Forest quanto pela clusterização (DBSCAN), indicando possíveis registros com condições ou rendimentos atípicos que podem necessitar de investigação adicional.
+- Modelo Preditivo Eficaz: O modelo Random Forest Regressor demonstrou a melhor performance entre os modelos testados para prever o rendimento, atingindo um alto R² nos dados de teste (0.9945) e validação cruzada (0.9847), indicando que é capaz de explicar uma grande proporção da variabilidade do rendimento.
 
-Aplicações Práticas
-- Agricultura de precisão: Otimização de insumos baseada em previsões
-- Monitoramento ambiental: Alertas para condições subótimas
-- Planejamento sazonal: Seleção de culturas apropriadas
-- Gestão de risco: Previsão de safras e planejamento logístico
+### Aplicações Práticas:
+- Otimização Agrícola: Utilizar os insights sobre as condições ambientais associadas a alta produtividade (identificadas na clusterização) e o modelo preditivo para otimizar o manejo das culturas e o uso de insumos em diferentes regiões ou para diferentes tipos de cultura.
+- Previsão e Planejamento: Empregar o modelo preditivo para prever o rendimento esperado com base nas condições ambientais e no tipo de cultura, auxiliando no planejamento da safra, logística e gestão de recursos.
+- Tomada de Decisão Estratégica: As informações sobre o desempenho relativo das diferentes culturas e a identificação dos fatores mais influentes (principalmente o tipo de cultura) podem subsidiar decisões estratégicas sobre quais culturas priorizar ou em quais regiões investir.
+- Monitoramento e Alerta: Desenvolver sistemas de monitoramento que alertem para condições ambientais que se aproximam daquelas associadas a clusters de menor produtividade, permitindo ações corretivas ou preventivas
