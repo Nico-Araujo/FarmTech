@@ -105,6 +105,11 @@ Visualização dos clusters de produtividade
 Comparação do desempenho dos modelos
 Exemplo prático de previsão  
 <br><br>
+
+## Notebook Jupyter
+🔗 Link para o notebook
+<br><br>
+
 ## 📋 Conclusões
 Descobertas Chave
 - Condições ideais: Temperatura 20-25°C, Umidade 65-75%
