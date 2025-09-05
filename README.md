@@ -4,19 +4,23 @@
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.2%2B-orange)](https://scikit-learn.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)](https://jupyter.org/)
 
+
 ## 👨‍🎓 Integrantes: 
 - <a href="https://www.linkedin.com/in/juliano-romeiro-rodrigues/">Juliano Romeiro Rodrigues</a>
 - <a href="https://www.linkedin.com/in/nicolas--araujo/">Nicolas Antonio Silva Araujo</a> 
 - <a href="https://www.linkedin.com/in/vitoria-bagatin-31ba88266/">Vitória Pereira Bagatin</a> 
 
+
 ## 📋 Sobre o Projeto
 Projeto de Machine Learning para previsão de rendimento de safras agrícolas baseado em condições ambientais e de solo. Desenvolvido como parte da Fase 5 do programa de Graduação em Inteligência Artificial, com foco em Machine Learning e Computação em Nuvem.
+
 
 ## 🎯 Objetivos
 - ✅ **Análise Exploratória**: Compreensão dos padrões dos dados agrícolas
 - ✅ **Clusterização**: Identificação de tendências de produtividade
 - ✅ **Modelagem Preditiva**: 5 modelos de regressão para previsão
 - ✅ **Documentação**: Relatório completo com insights acionáveis
+
 
 ## 📊 Dataset
 ### Estrutura dos Dados
@@ -34,8 +38,10 @@ Projeto de Machine Learning para previsão de rendimento de safras agrícolas ba
 - **Culturas**: 5 tipos diferentes
 - **Qualidade**: Dados completos sem valores faltando
 
+
 ## 🛠️ Tecnologias
 ```python```
+
 
 ## Principais bibliotecas
 ```pandas==1.5.3```
@@ -45,6 +51,7 @@ Projeto de Machine Learning para previsão de rendimento de safras agrícolas ba
 ```matplotlib==3.7.1```
 ```seaborn==0.12.2```
 ```jupyter==1.0.0```
+
 
 ## 📁 Estrutura de pastas
 ### <br>data<br>
@@ -67,6 +74,7 @@ Aqui estão salvos todos os modelos de machine learning treinados, assim como os
 ### <br>notebooks<br>
 Contém os notebooks Jupyter para a análise e desenvolvimento do projeto.
 - <b>NicolasAntonioSilvaAraujo_rm566307_pbl_fase5.ipynb<b>: Notebook principal com a análise exploratória de dados (EDA), pré-processamento, treinamento dos modelos e avaliação
+
 
 ## 🔍 Metodologia
 1. Análise Exploratória
@@ -95,6 +103,7 @@ Contém os notebooks Jupyter para a análise e desenvolvimento do projeto.
 - 🌱 Tipo de Cultura: Influência significativa
 - 💨 Umidade Específica: Menor impacto
 
+
 ## Vídeo de Demonstração
 🔗 Link para o vídeo no YouTube
 
@@ -105,15 +114,16 @@ Visualização dos clusters de produtividade
 Comparação do desempenho dos modelos
 Exemplo prático de previsão
 
+
 ## 📋 Conclusões
 Descobertas Chave
-Condições ideais: Temperatura 20-25°C, Umidade 65-75%
-Culturas de alto rendimento: Milho e Soja nas condições ideais
-Fatores limitantes: Temperaturas extremas e umidade desbalanceada
-Clusterização eficaz: 3 clusters identificados com diferentes níveis de produtividade
+- Condições ideais: Temperatura 20-25°C, Umidade 65-75%
+- Culturas de alto rendimento: Milho e Soja nas condições ideais
+- Fatores limitantes: Temperaturas extremas e umidade desbalanceada
+- Clusterização eficaz: 3 clusters identificados com diferentes níveis de produtividade
 
 Aplicações Práticas
-Agricultura de precisão: Otimização de insumos baseada em previsões
-Monitoramento ambiental: Alertas para condições subótimas
-Planejamento sazonal: Seleção de culturas apropriadas
-Gestão de risco: Previsão de safras e planejamento logístico
+- Agricultura de precisão: Otimização de insumos baseada em previsões
+- Monitoramento ambiental: Alertas para condições subótimas
+- Planejamento sazonal: Seleção de culturas apropriadas
+- Gestão de risco: Previsão de safras e planejamento logístico
