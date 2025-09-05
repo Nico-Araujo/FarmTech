@@ -36,7 +36,7 @@ Projeto de Machine Learning para previsão de rendimento de safras agrícolas ba
 
 ```python```
 
-# Principais bibliotecas
+## Principais bibliotecas
 ```pandas==1.5.3```
 ```numpy==1.24.3```
 ```scikit-learn==1.2.2```
@@ -45,14 +45,14 @@ Projeto de Machine Learning para previsão de rendimento de safras agrícolas ba
 ```seaborn==0.12.2```
 ```jupyter==1.0.0```
 
-## Estrutura de pastas
-<br>data<br>
+## 📁 Estrutura de pastas
+### <br>data<br>
 Essa pasta armazena todos os datasets utilizados no projeto.
 - <b>crop_yield_cleaned.csv<b>: Versão do dataset original que foi limpa e processada.
 - <b>crop_yield_clustered.csv<b>: Contém os dados com os clusters de produção já identificados.
 - <b>crop_yield_with_outliers.csv<b>: O dataset com os outliers marcados para análise.
 
-<br>models<br>
+### <br>models<br>
 Aqui estão salvos todos os modelos de machine learning treinados, assim como os scalers e encoders usados no pré-processamento.
 - <b>linear_regression.pkl<b>: Modelo de Regressão Linear treinado.
 - <b>random_forest.pkl<b>: Modelo Random Forest treinado.
@@ -63,7 +63,7 @@ Aqui estão salvos todos os modelos de machine learning treinados, assim como os
 - <b>label_encoder.pkl<b>: Objeto label encoder utilizado para codificar variáveis categóricas.
 - <b>model_results.json<b>: Arquivo com os resultados e métricas de desempenho de cada modelo.
 
-<br>notebooks<br>
+### <br>notebooks<br>
 Contém os notebooks Jupyter para a análise e desenvolvimento do projeto.
 - <b>pbl_fase4.ipynb<b>: Notebook principal com a análise exploratória de dados (EDA), pré-processamento, treinamento dos modelos e avaliação
 
