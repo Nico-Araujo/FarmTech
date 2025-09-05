@@ -95,6 +95,11 @@ Contém os notebooks Jupyter para a análise e desenvolvimento do projeto.
 - 🌱 Tipo de Cultura: Influência significativa
 - 💨 Umidade Específica: Menor impacto  
 <br><br>
+
+## Notebook Jupyter
+🔗 Clique [AQUI](https://colab.research.google.com/github/Nico-Araujo/FarmTech/blob/main/notebooks/NicolasAntonioSilvaAraujo_rm566307_pbl_fase5.ipynb) para ser redirecionado para o notebook no Google Colab
+<br><br>
+
 ## Vídeo de Demonstração
 🔗 Link para o vídeo no YouTube
 
@@ -104,10 +109,6 @@ Demonstração da análise exploratória
 Visualização dos clusters de produtividade
 Comparação do desempenho dos modelos
 Exemplo prático de previsão  
-<br><br>
-
-## Notebook Jupyter
-🔗 Clique [aqui](https://colab.research.google.com/github/Nico-Araujo/FarmTech/blob/main/notebooks/NicolasAntonioSilvaAraujo_rm566307_pbl_fase5.ipynb) para ser redirecionado para o notebook no Google Colab
 <br><br>
 
 ## 📋 Conclusões
