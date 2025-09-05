@@ -4,19 +4,21 @@
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.2%2B-orange)](https://scikit-learn.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)](https://jupyter.org/)
 
-## 📋 Sobre o Projeto
+## 👨‍🎓 Integrantes: 
+- <a href="https://www.linkedin.com/in/juliano-romeiro-rodrigues/">Juliano Romeiro Rodrigues</a>
+- <a href="https://www.linkedin.com/in/nicolas--araujo/">Nicolas Antonio Silva Araujo</a> 
+- <a href="https://www.linkedin.com/in/vitoria-bagatin-31ba88266/">Vitória Pereira Bagatin</a> 
 
+## 📋 Sobre o Projeto
 Projeto de Machine Learning para previsão de rendimento de safras agrícolas baseado em condições ambientais e de solo. Desenvolvido como parte da Fase 5 do programa de Graduação em Inteligência Artificial, com foco em Machine Learning e Computação em Nuvem.
 
 ## 🎯 Objetivos
-
 - ✅ **Análise Exploratória**: Compreensão dos padrões dos dados agrícolas
 - ✅ **Clusterização**: Identificação de tendências de produtividade
 - ✅ **Modelagem Preditiva**: 5 modelos de regressão para previsão
 - ✅ **Documentação**: Relatório completo com insights acionáveis
 
 ## 📊 Dataset
-
 ### Estrutura dos Dados
 | Variável | Descrição | Tipo |
 |----------|-----------|------|
@@ -33,7 +35,6 @@ Projeto de Machine Learning para previsão de rendimento de safras agrícolas ba
 - **Qualidade**: Dados completos sem valores missing
 
 ## 🛠️ Tecnologias
-
 ```python```
 
 ## Principais bibliotecas
@@ -65,27 +66,27 @@ Aqui estão salvos todos os modelos de machine learning treinados, assim como os
 
 ### <br>notebooks<br>
 Contém os notebooks Jupyter para a análise e desenvolvimento do projeto.
-- <b>pbl_fase4.ipynb<b>: Notebook principal com a análise exploratória de dados (EDA), pré-processamento, treinamento dos modelos e avaliação
+- <b>NicolasAntonioSilvaAraujo_rm566307_pbl_fase5.ipynb<b>: Notebook principal com a análise exploratória de dados (EDA), pré-processamento, treinamento dos modelos e avaliação
 
 ## 🔍 Metodologia
 1. Análise Exploratória
-Limpeza e pré-processamento dos dados
-Análise de correlações entre variáveis
-Identificação e tratamento de outliers
-Visualizações interativas e análise descritiva
+* Limpeza e pré-processamento dos dados
+* Análise de correlações entre variáveis
+* Identificação e tratamento de outliers
+* Visualizações interativas e análise descritiva
 
 2. Clusterização (KMeans, DBSCAN, GMM)
-Identificação de clusters de produtividade
-Detecção de padrões anômalos com Isolation Forest
-Análise de características por cluster
-Visualização com redução de dimensionalidade (PCA)
+* Identificação de clusters de produtividade
+* Detecção de padrões anômalos com Isolation Forest
+* Análise de características por cluster
+* Visualização com redução de dimensionalidade (PCA)
 
 3. Modelos de Regressão
-Linear Regression - Modelo baseline para comparação
-Random Forest - Ensemble learning com múltiplas árvores
-XGBoost - Gradient boosting otimizado
-SVR - Support Vector Regression
-MLP Regressor - Rede neural artificial
+* Linear Regression - Modelo baseline para comparação
+* Random Forest - Ensemble learning com múltiplas árvores
+* XGBoost - Gradient boosting otimizado
+* SVR - Support Vector Regression
+* MLP Regressor - Rede neural artificial
 
 ## Insights Principais
 - 🌡️ Temperatura: Fator mais importante
