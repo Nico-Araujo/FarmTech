@@ -34,7 +34,7 @@ Projeto de Machine Learning para previsão de rendimento de safras agrícolas ba
 
 ## 🛠️ Tecnologias
 
-```python
+```python```
 # Principais bibliotecas
 pandas==1.5.3
 numpy==1.24.3
@@ -43,37 +43,36 @@ xgboost==1.7.6
 matplotlib==3.7.1
 seaborn==0.12.2
 jupyter==1.0.0
-```
+
 
 ## Estrutura do Projeto
 farmtech-project/
-│
 ├── data/
-│   ├── crop_yield_cleaned.csv          # Dataset limpo e processado
-│   ├── crop_yield_clustered.csv        # Dataset com clusters identificados
-│   └── crop_yield_with_outliers.csv    # Dataset com outliers marcados
+│   ├── raw/
+│   │   ├── crop_yield.csv              # Dataset original (cru)
+│   │   └── other_datasets/             # Datasets auxiliares (ex: california housing, mnist)
+│   ├── processed/
+│   │   ├── crop_yield_cleaned.csv      # Dataset limpo e processado
+│   │   ├── crop_yield_clustered.csv    # Dataset com clusters identificados
+│   │   └── crop_yield_with_outliers.csv# Dataset com outliers marcados
 │
 ├── models/
-│   ├── linear_regression.pkl           # Modelo de Regressão Linear
-│   ├── random_forest.pkl               # Modelo Random Forest
-│   ├── mlp.pkl                         # Modelo MLP Regressor
-│   ├── svr.pkl                         # Modelo Support Vector Regression
-│   ├── scaler.pkl                      # Scaler para normalização
-│   ├── label_encoder.pkl               # LabelEncoder para variáveis categóricas
-│   └── model_results.json              # Resultados e métricas dos modelos
-│   ├── xgboost.pkl                     # Modelo XGBoost com tuning otimizado
+│   ├── saved/
+│   │   ├── linear_regression.pkl       # Modelo de Regressão Linear
+│   │   ├── random_forest.pkl           # Modelo Random Forest
+│   │   ├── xgboost.pkl                 # Modelo XGBoost com tuning otimizado
+│   │   └── ...                         # Outros modelos e resultados
+│   ├── artifacts/
+│   │   ├── scaler.pkl                  # Scaler para normalização dos dados
+│   │   └── label_encoder.pkl           # LabelEncoder para variáveis categóricas
+│   └── model_results.json              # Resultados e métricas de todos os modelos
 │
 ├── notebooks/
-│   └── pbl_fase4.ipynb                 # Notebook principal com análise completa
+│   ├── pbl_fase4.ipynb                 # Notebook principal com a análise completa do projeto
 │
-├── README.md                           # Documentação do projeto
-├── anscombe.json                       # Dataset auxiliar para análise
-├── california_housing_test.csv         # Dataset de teste para validação
-├── california_housing_train.csv        # Dataset de treino para validação
-├── mnist_test.csv                      # Dataset MNist teste
-└── mnist_train_small.csv               # Dataset MNist treino reduzido
+└── README.md                           # Documentação e guia do projeto
 
-##🔍 Metodologia
+## 🔍 Metodologia
 1. Análise Exploratória
 Limpeza e pré-processamento dos dados
 Análise de correlações entre variáveis
@@ -93,12 +92,12 @@ XGBoost - Gradient boosting otimizado
 SVR - Support Vector Regression
 MLP Regressor - Rede neural artificial
 
-##Insights Principais
-🌡️ Temperatura: Fator mais importante
-💧 Umidade Relativa: Segundo fator mais relevante
-🌧️ Precipitação: Necessário balanceamento
-🌱 Tipo de Cultura: Influência significativa
-💨 Umidade Específica: Menor impacto
+## Insights Principais
+- 🌡️ Temperatura: Fator mais importante
+- 💧 Umidade Relativa: Segundo fator mais relevante
+- 🌧️ Precipitação: Necessário balanceamento
+- 🌱 Tipo de Cultura: Influência significativa
+- 💨 Umidade Específica: Menor impacto
 
 ## Vídeo de Demonstração
 🔗 Link para o vídeo no YouTube
