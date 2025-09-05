@@ -8,7 +8,7 @@
 - <a href="https://www.linkedin.com/in/juliano-romeiro-rodrigues/">Juliano Romeiro Rodrigues</a>
 - <a href="https://www.linkedin.com/in/nicolas--araujo/">Nicolas Antonio Silva Araujo</a> 
 - <a href="https://www.linkedin.com/in/vitoria-bagatin-31ba88266/">Vitória Pereira Bagatin</a> 
-<br>
+<br><br>
 ## 📋 Sobre o Projeto
 Projeto de Machine Learning para previsão de rendimento de safras agrícolas baseado em condições ambientais e de solo. Desenvolvido como parte da Fase 5 do programa de Graduação em Inteligência Artificial, com foco em Machine Learning e Computação em Nuvem.  
 <br><br>
@@ -17,7 +17,7 @@ Projeto de Machine Learning para previsão de rendimento de safras agrícolas ba
 - ✅ **Clusterização**: Identificação de tendências de produtividade
 - ✅ **Modelagem Preditiva**: 5 modelos de regressão para previsão
 - ✅ **Documentação**: Relatório completo com insights acionáveis  
-
+<br><br>
 ## 📊 Dataset
 ### Estrutura dos Dados
 | Variável | Descrição | Tipo |
@@ -30,10 +30,10 @@ Projeto de Machine Learning para previsão de rendimento de safras agrícolas ba
 | `Rendimento` | Rendimento (ton/hectare) | Target |
 
 ### Estatísticas
-- **Amostras**: 2.000 registros
-- **Culturas**: 5 tipos diferentes
+- **Amostras**: 2.000 Registros
+- **Culturas**: 5 Tipos diferentes
 - **Qualidade**: Dados completos sem valores faltando
-
+<br><br>
 ## 🛠️ Tecnologias
 ```python```  
 
@@ -45,7 +45,7 @@ Projeto de Machine Learning para previsão de rendimento de safras agrícolas ba
 ```matplotlib==3.7.1```
 ```seaborn==0.12.2```
 ```jupyter==1.0.0```  
-
+<br><br>
 ## 📁 Estrutura de pastas
 ### <br>data<br>
 Essa pasta armazena todos os datasets utilizados no projeto.
@@ -67,7 +67,7 @@ Aqui estão salvos todos os modelos de machine learning treinados, assim como os
 ### <br>notebooks<br>
 Contém os notebooks Jupyter para a análise e desenvolvimento do projeto.
 - <b>NicolasAntonioSilvaAraujo_rm566307_pbl_fase5.ipynb<b>: Notebook principal com a análise exploratória de dados (EDA), pré-processamento, treinamento dos modelos e avaliação  
-
+<br><br>
 ## 🔍 Metodologia
 1. Análise Exploratória
 * Limpeza e pré-processamento dos dados
@@ -87,14 +87,14 @@ Contém os notebooks Jupyter para a análise e desenvolvimento do projeto.
 * XGBoost - Gradient boosting otimizado
 * SVR - Support Vector Regression
 * MLP Regressor - Rede neural artificial  
-
+<br><br>
 ## Insights Principais
 - 🌡️ Temperatura: Fator mais importante
 - 💧 Umidade Relativa: Segundo fator mais relevante
 - 🌧️ Precipitação: Necessário balanceamento
 - 🌱 Tipo de Cultura: Influência significativa
 - 💨 Umidade Específica: Menor impacto  
-
+<br><br>
 ## Vídeo de Demonstração
 🔗 Link para o vídeo no YouTube
 
@@ -104,7 +104,7 @@ Demonstração da análise exploratória
 Visualização dos clusters de produtividade
 Comparação do desempenho dos modelos
 Exemplo prático de previsão  
-
+<br><br>
 ## 📋 Conclusões
 Descobertas Chave
 - Condições ideais: Temperatura 20-25°C, Umidade 65-75%
