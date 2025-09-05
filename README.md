@@ -65,7 +65,7 @@ Aqui estão salvos todos os modelos de machine learning treinados, assim como os
 - <b>model_results.json<b>: Arquivo com os resultados e métricas de desempenho de cada modelo.
 
 ### <br>notebooks<br>
-Contém os notebooks Jupyter para a análise e desenvolvimento do projeto.
+Contém o notebook Jupyter para a análise e desenvolvimento do projeto.
 - <b>NicolasAntonioSilvaAraujo_rm566307_pbl_fase5.ipynb<b>: Notebook principal com a análise exploratória de dados (EDA), pré-processamento, treinamento dos modelos e avaliação  
 <br><br>
 ## 🔍 Metodologia
