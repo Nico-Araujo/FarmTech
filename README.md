@@ -94,18 +94,17 @@ Contém o notebook Jupyter para a análise e desenvolvimento do projeto.
 <br><br>
 
 ## Notebook Jupyter
-🔗 Clique [AQUI](https://colab.research.google.com/github/Nico-Araujo/FarmTech/blob/main/notebooks/NicolasAntonioSilvaAraujo_rm566307_pbl_fase5.ipynb) para ser redirecionado para o notebook no Google Colab
+🔗 Clique [AQUI](https://colab.research.google.com/github/Nico-Araujo/FarmTech/blob/main/notebooks/NicolasAntonioSilvaAraujo_rm566307_pbl_fase5.ipynb) para ser redirecionado para o notebook no Google Colab. (O Relatório Detalhado está no final do Notebook!!!)
 <br><br>
 
 ## Vídeo de Demonstração
-🔗 Link para o vídeo no YouTube
+🔗 Clique [AQUI](youtube.com) para ser redirecionado ao vídeo no YouTube.
 
-Duração: 5 minutos
 Conteúdo:
-Demonstração da análise exploratória
-Visualização dos clusters de produtividade
-Comparação do desempenho dos modelos
-Exemplo prático de previsão  
+- Demonstração da análise exploratória
+- Visualização dos clusters de produtividade
+- Comparação do desempenho dos modelos
+- Exemplo prático de previsão  
 <br><br>
 
 ## 📋 Conclusões
