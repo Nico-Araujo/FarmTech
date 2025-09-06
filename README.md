@@ -30,8 +30,8 @@ Projeto de Machine Learning para previsão de rendimento de safras agrícolas ba
 | `Rendimento` | Rendimento (ton/hectare) | Target |
 
 ### Estatísticas
-- **Amostras**: 2.000 Registros
-- **Culturas**: 5 Tipos diferentes
+- **Amostras**: 156 Registros
+- **Culturas**: 4 Tipos diferentes
 - **Qualidade**: Dados completos sem valores faltando
 <br><br>
 ## 🛠️ Tecnologias
