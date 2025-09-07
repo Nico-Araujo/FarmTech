@@ -107,6 +107,81 @@ Conteúdo:
 - Exemplo prático de previsão  
 <br><br>
 
+
+## ☁️ Análise de Custos AWS - Computação em Nuvem
+
+### 💰 Comparação de Custos por Região
+
+**Configurações da Máquina:**
+- **CPUs**: 2 vCPUs
+- **Memória**: 1 GiB RAM  
+- **Rede**: Até 5 Gigabit
+- **Armazenamento**: 50 GB (EBS)
+- **Sistema Operacional**: Linux
+- **Tipo de Instância**: t3.micro
+- **Modelo de Cobrança**: On-Demand (100% de utilização)
+
+### 📊 Resultados da Comparação
+
+![Comparação de Custos AWS](https://hebbkx1anhila5yf.public.blob.vercel-storage.com/comparacao_custos_aws-yUTeLS7pkDeWTWuQUESZTEH8ApwSSF.png)
+
+| Região | Custo Mensal (USD) | Custo Anual (USD) | Diferença |
+|--------|-------------------|-------------------|-----------|
+| **São Paulo (BR)** | $19.86 | $238.32 | +71.4% |
+| **Virgínia do Norte (EUA)** | $11.59 | $139.08 | Base |
+
+**Economia Anual**: $99.24 USD (41.6% de redução) escolhendo Virgínia do Norte
+
+### 🎯 Análise Técnica e Justificativa
+
+**Comparação: São Paulo (BR) vs Virgínia do Norte (EUA)**
+
+Apesar do custo 71.4% maior, a região de São Paulo apresenta vantagens técnicas e regulamentares significativas:
+
+#### ✅ **Vantagens da Região São Paulo:**
+
+1. **📡 Latência Otimizada**
+   - Tempo de resposta < 50ms para sensores localizados no Brasil
+   - Coleta de dados em tempo real mais eficiente
+   - Melhor experiência para usuários brasileiros
+
+2. **⚖️ Conformidade Legal**
+   - **Lei Geral de Proteção de Dados (LGPD)**: Dados agrícolas sensíveis permanecem em território nacional
+   - **Marco Civil da Internet**: Atendimento às regulamentações brasileiras
+   - **Soberania de Dados**: Eliminação de riscos regulamentares internacionais
+
+3. **🌐 Conectividade Regional**
+   - Melhor integração com provedores de internet brasileiros
+   - Redução de custos de transferência de dados internacionais
+   - Suporte técnico em português e fuso horário local
+
+#### ⚠️ **Limitações da Região Virgínia:**
+
+- **Latência Elevada**: 150-200ms para acessos do Brasil
+- **Riscos Regulamentares**: Possíveis conflitos com LGPD
+- **Dependência Internacional**: Vulnerabilidade a políticas externas
+- **Custos Ocultos**: Transferência de dados internacionais
+
+### 💡 **Análise Custo-Benefício**
+
+O custo adicional de **$99.24/ano** da região São Paulo oferece:
+
+- **Redução de Riscos Legais**: Evita multas de até 2% do faturamento (LGPD)
+- **Performance Superior**: Tempo de resposta 3-4x melhor
+- **Confiabilidade**: Menor dependência de conectividade internacional
+- **Escalabilidade Local**: Facilita expansão no mercado brasileiro
+
+### 🔗 Recursos Utilizados
+
+- **Calculadora AWS**: [Link para Estimativa](https://calculator.aws/#/estimate?id=902c151f1ae0b6a3529c83d5ec266aaa56c75d34)
+- **Data da Análise**: 06/09/2025
+- **Modelo de Precificação**: On-Demand com 100% de utilização
+
+### 🎥 Vídeo Demonstrativo - Análise AWS
+🔗 Clique [AQUI](youtube.com) para ver a demonstração da comparação de custos na calculadora AWS.
+
+<br><br>
+
 ## 📋 Conclusões
 ### Descobertas Chave:
 - Fator Determinante Principal: O tipo de cultura ('Crop') é o fator mais significativo na determinação do rendimento agrícola neste dataset, demonstrando uma importância muito superior às variáveis ambientais no modelo preditivo.
