@@ -98,7 +98,7 @@ Contém o notebook Jupyter para a análise e desenvolvimento do projeto.
 <br><br>
 
 ## Vídeo de Demonstração
-🔗 Clique [AQUI](youtube.com) para ser redirecionado ao vídeo no YouTube.
+🔗 Clique [AQUI](https://youtu.be/a1x2pR-j4gQ) para ser redirecionado ao vídeo no YouTube.
 
 Conteúdo:
 - Demonstração da análise exploratória
