@@ -178,7 +178,7 @@ O custo adicional de **$99.24/ano** da região São Paulo oferece:
 - **Modelo de Precificação**: On-Demand com 100% de utilização
 
 ### 🎥 Vídeo Demonstrativo - Análise AWS
-🔗 Clique [AQUI](youtube.com) para ver a demonstração da comparação de custos na calculadora AWS.
+🔗 Clique [AQUI](https://youtu.be/u0tJuc2HeZU) para ver a demonstração da comparação de custos na calculadora AWS.
 
 <br><br>
 
